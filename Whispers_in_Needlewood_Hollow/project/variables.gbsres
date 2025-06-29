@@ -1,0 +1,10 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "216bdba4-2533-4393-bdb6-b52389bec01d__L0",
+      "name": "Menu Choice",
+      "symbol": "var_menu_choice"
+    }
+  ]
+}
