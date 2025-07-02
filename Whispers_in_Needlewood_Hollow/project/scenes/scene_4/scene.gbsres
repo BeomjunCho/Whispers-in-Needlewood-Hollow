@@ -3,7 +3,7 @@
   "id": "0538d428-69eb-480d-b189-59bfa66634d7",
   "_index": 3,
   "name": "Scene 4",
-  "backgroundId": "b120b044-aaf8-433a-8ef9-5247baa0172b",
+  "backgroundId": "0ae958c3-f481-4ec1-8adf-ed66842a58bc",
   "tilesetId": "",
   "width": 56,
   "height": 56,
@@ -27,5 +27,6 @@
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "825e45ae-9d9c-411e-8fd4-5f26264248fe"
 }
