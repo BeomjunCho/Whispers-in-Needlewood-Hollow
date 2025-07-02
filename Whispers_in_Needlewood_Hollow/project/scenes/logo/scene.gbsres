@@ -11,7 +11,7 @@
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
-  "autoFadeSpeed": 1,
+  "autoFadeSpeed": 3,
   "symbol": "scene_1",
   "x": 335,
   "y": 100,
