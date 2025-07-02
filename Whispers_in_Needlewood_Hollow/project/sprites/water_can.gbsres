@@ -5,7 +5,7 @@
   "symbol": "sprite_water_can",
   "numFrames": 0.5,
   "filename": "Water Can.png",
-  "checksum": "017df36fb5460b72c0e2467140209ed5d0d59414",
+  "checksum": "b2b240b84dc603d2f5fb98e25920045b66c71ffe",
   "width": 8,
   "height": 8,
   "states": [
@@ -20,7 +20,21 @@
           "frames": [
             {
               "id": "5a7ca3f3-a4d4-4f42-9366-e28a9c65e83a",
-              "tiles": []
+              "tiles": [
+                {
+                  "id": "a1915251-469c-45b5-8523-75cc3db444aa",
+                  "x": 0,
+                  "y": 1,
+                  "sliceX": 0,
+                  "sliceY": -8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
             }
           ]
         },
@@ -90,9 +104,9 @@
       ]
     }
   ],
-  "numTiles": 0,
-  "canvasWidth": 32,
-  "canvasHeight": 32,
+  "numTiles": 1,
+  "canvasWidth": 8,
+  "canvasHeight": 16,
   "boundsX": 0,
   "boundsY": 0,
   "boundsWidth": 16,
