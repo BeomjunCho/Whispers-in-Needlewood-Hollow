@@ -1,32 +1,40 @@
 {
   "_resourceType": "scene",
   "id": "0538d428-69eb-480d-b189-59bfa66634d7",
-  "_index": 3,
-  "name": "Scene 4",
-  "backgroundId": "0ae958c3-f481-4ec1-8adf-ed66842a58bc",
-  "tilesetId": "",
+  "_index": 2,
+  "type": "TOPDOWN",
+  "name": "Forest",
+  "symbol": "scene_4",
+  "x": 937,
+  "y": 259,
   "width": 56,
   "height": 56,
-  "type": "TOPDOWN",
+  "backgroundId": "0ae958c3-f481-4ec1-8adf-ed66842a58bc",
+  "tilesetId": "",
   "paletteIds": [
     "",
     "default-bg-5",
-    null,
+    "",
     "default-bg-5",
     "default-bg-4",
-    null,
+    "",
     "default-bg-5",
     "default-bg-5"
   ],
   "spritePaletteIds": [],
-  "collisions": "00c40+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_4",
-  "x": 937,
-  "y": 259,
-  "script": [],
+  "playerSpriteSheetId": "825e45ae-9d9c-411e-8fd4-5f26264248fe",
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "6d0d873f-e209-4738-a72a-c090ca3d6dde"
+      },
+      "id": "d35ee7bf-b284-41f0-9ab1-1ee963b4dd1b"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "825e45ae-9d9c-411e-8fd4-5f26264248fe"
+  "collisions": "00c40+"
 }
