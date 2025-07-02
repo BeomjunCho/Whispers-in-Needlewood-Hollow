@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "4ed236b7-9a5a-4f73-b571-6b16868d3fe0",
+  "name": "Watered Soil",
+  "symbol": "sprite_watered_soil",
+  "numFrames": 0.5,
+  "filename": "Watered Soil.png",
+  "checksum": "2eb2de90f51f5becdfb36880b2f4d109059bf6c1",
+  "width": 8,
+  "height": 8,
+  "states": [
+    {
+      "id": "14b9c546-715c-4f1f-b12f-0de93f6f23b5",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "2777d29a-0efc-47a1-9616-2b4f44355513",
+          "frames": [
+            {
+              "id": "e4ce4641-71bb-4ce0-b71f-892a48bfa4cd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b6affc0b-714a-4d5e-9bd4-8908d785781c",
+          "frames": [
+            {
+              "id": "b9ffc84b-bc5e-4bf0-bf36-3a41d9bc2e88",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6ccea0d6-482a-4015-8e37-341741ccc8e2",
+          "frames": [
+            {
+              "id": "b95bd766-614f-4022-bdc7-08af588b6470",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "81b7a6ab-9291-468a-995b-9dd5a78e185b",
+          "frames": [
+            {
+              "id": "34e9083e-fb02-4335-bfcb-86b70badedbb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dceabe11-2ec9-4f15-87e6-8881356aa23a",
+          "frames": [
+            {
+              "id": "2915ce00-3606-4a1f-88c8-fd2562556966",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8d1996c3-9d0b-40fb-a0f0-f38f908b8130",
+          "frames": [
+            {
+              "id": "050bec3a-ebad-4534-94c5-515795e97991",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8c28c2ee-41f8-4caa-b3db-44869b620a7c",
+          "frames": [
+            {
+              "id": "b06ff83d-6715-44c9-89f0-2cc768bcbe8c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "50230f39-c0d4-4741-8cf9-10c9c258d6ff",
+          "frames": [
+            {
+              "id": "9b7784e9-ced9-47a8-b213-6580826b576b",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}
