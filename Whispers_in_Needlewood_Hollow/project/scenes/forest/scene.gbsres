@@ -1,0 +1,40 @@
+{
+  "_resourceType": "scene",
+  "id": "0538d428-69eb-480d-b189-59bfa66634d7",
+  "_index": 3,
+  "type": "TOPDOWN",
+  "name": "Forest",
+  "symbol": "scene_4",
+  "x": 936,
+  "y": 256,
+  "width": 56,
+  "height": 56,
+  "backgroundId": "b120b044-aaf8-433a-8ef9-5247baa0172b",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "default-bg-5",
+    "",
+    "default-bg-5",
+    "default-bg-4",
+    "",
+    "default-bg-5",
+    "default-bg-5"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "6d0d873f-e209-4738-a72a-c090ca3d6dde"
+      },
+      "id": "074af4dc-8937-47e0-9f25-26bdcc22baa1"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00c40+",
+  "playerSpriteSheetId": "825e45ae-9d9c-411e-8fd4-5f26264248fe"
+}
