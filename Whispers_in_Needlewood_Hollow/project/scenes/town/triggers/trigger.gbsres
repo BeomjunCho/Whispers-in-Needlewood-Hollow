@@ -1,43 +1,82 @@
 {
   "_resourceType": "trigger",
-  "id": "0bc5e13d-fbb1-45b5-9e94-d0c1e7eaf380",
+  "id": "cba3740c-96eb-4d0a-88e1-856b76dbd5cc",
   "name": "",
   "prefabId": "",
-  "x": 43,
-  "y": 11,
-  "symbol": "trigger_1",
+  "x": 41,
+  "y": 12,
+  "symbol": "trigger_2",
   "prefabScriptOverrides": {},
-  "width": 2,
-  "height": 1,
+  "width": 4,
+  "height": 3,
   "script": [
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_IF",
       "args": {
-        "variable": "0",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "2d8c67fc-283d-46cf-b93b-319a57c9964c"
-    },
-    {
-      "command": "EVENT_SWITCH_SCENE",
-      "args": {
-        "sceneId": "bfbce5f5-6bf4-4c92-90e5-96a155e9cb23",
-        "x": {
-          "type": "number",
-          "value": 9
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "false"
+          }
         },
-        "y": {
-          "type": "number",
-          "value": 13
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__comment": false
       },
-      "id": "dbee02ad-3625-475d-baf2-adfee25d3fb9"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "“I need to grow ",
+                "cotton for thread,",
+                "and gather stones ",
+                "to make a needle.",
+                "But I don’t have",
+                "any tools yet.",
+                "I should go",
+                "look for them."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "442c6514-43c3-4564-8b6c-07672e98effe"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "4501a835-caea-46ae-980b-f9d737be0f53"
+          }
+        ],
+        "false": []
+      },
+      "id": "34d40f2d-02f0-4c9e-b0bb-a05c7cab4d05"
     }
   ],
   "leaveScript": [],
-  "_index": 0
+  "_index": 1
 }

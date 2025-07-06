@@ -45,10 +45,7 @@
             "args": {
               "text": [
                 "Here are Hoe and ",
-                "Watering can.",
-                "You got Hoe and ",
-                "Watering can.",
-                "Press select!"
+                "Watering can."
               ],
               "__section": "text",
               "avatarId": "",
@@ -68,6 +65,75 @@
               "closeDelayFrames": 30
             },
             "id": "4467136d-2d64-40eb-b706-0f9f50c23401"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "b236a359-bff6-457f-b2b4-fbd3fd373b1f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You got Hoe and ",
+                "Watering can."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "931ad36f-7bdb-4846-9825-73a5c490a031"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "70ef3852-3762-48af-8752-b876f890052e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Press",
+                "Select/Shift",
+                "to open inventory."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "392abe1e-dc72-446b-8936-1d7b8be44d6b"
           },
           {
             "command": "EVENT_SET_VALUE",
@@ -119,7 +185,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 31,
+  "x": 14,
   "y": 17,
   "_index": 1
 }

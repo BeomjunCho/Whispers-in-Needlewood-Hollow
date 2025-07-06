@@ -118,8 +118,8 @@
     },
     {
       "id": "d79ca252-7255-4afe-938c-62afab1cc429__L2",
-      "name": "HowManyWater",
-      "symbol": "var_howmanywater"
+      "name": "HarvestProgress",
+      "symbol": "var_harvestprogress"
     },
     {
       "id": "d79ca252-7255-4afe-938c-62afab1cc429__L3",
@@ -135,6 +135,21 @@
       "id": "11",
       "name": "WaterFilled",
       "symbol": "var_waterfilled"
+    },
+    {
+      "id": "12",
+      "name": "Variable 12",
+      "symbol": "var_variable_12"
+    },
+    {
+      "id": "d79ca252-7255-4afe-938c-62afab1cc429__L4",
+      "name": "SoilLevel",
+      "symbol": "var_soillevel"
+    },
+    {
+      "id": "d79ca252-7255-4afe-938c-62afab1cc429__L5",
+      "name": "TimeOut",
+      "symbol": "var_timeout"
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "cba3740c-96eb-4d0a-88e1-856b76dbd5cc",
+  "id": "0a600477-ffea-493c-8b70-259fdf1e828b",
   "name": "",
   "prefabId": "",
-  "x": 41,
-  "y": 12,
-  "symbol": "trigger_2",
+  "x": 34,
+  "y": 5,
+  "symbol": "trigger_3",
   "prefabScriptOverrides": {},
-  "width": 4,
-  "height": 3,
+  "width": 6,
+  "height": 5,
   "script": [
     {
       "command": "EVENT_IF",
@@ -17,7 +17,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "L0"
+            "value": "4"
           },
           "valueB": {
             "type": "false"
@@ -25,58 +25,182 @@
         },
         "__collapseElse": true,
         "__disableElse": true,
-        "__comment": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_TEXT",
+            "command": "EVENT_IF",
             "args": {
-              "text": [
-                "“I need to grow ",
-                "cotton for thread,",
-                "and gather stones ",
-                "to make a needle.",
-                "But I don’t have",
-                "any tools yet.",
-                "I should go",
-                "look for them."
+              "condition": {
+                "type": "variable",
+                "value": "3"
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "I guess I can",
+                      "cultivate that",
+                      "Land."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "f00012e2-e0ee-4524-8dcd-961f97dc24bf"
+                }
               ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "What is this land...?"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "e9fb64f2-0341-47f1-868d-cf3679b4fa3f"
+                }
+              ]
             },
-            "id": "442c6514-43c3-4564-8b6c-07672e98effe"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "L0",
-              "value": {
-                "type": "true"
-              }
-            },
-            "id": "4501a835-caea-46ae-980b-f9d737be0f53"
+            "id": "d65a03b2-ff87-4437-b9f6-2a7320153879"
           }
         ],
         "false": []
       },
-      "id": "34d40f2d-02f0-4c9e-b0bb-a05c7cab4d05"
+      "id": "83c09883-f083-49b2-bad5-8aca9aa370bf"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "3"
+                },
+                "valueB": {
+                  "type": "true"
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": false,
+              "__disableElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CHOICE",
+                  "args": {
+                    "variable": "L0",
+                    "trueText": "Cultivate?",
+                    "falseText": "No"
+                  },
+                  "id": "cccbcda6-c7f5-48b8-a676-77a6873b0d00"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "L0"
+                      },
+                      "valueB": {
+                        "type": "true"
+                      }
+                    },
+                    "__collapseElse": false,
+                    "__disableElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "4",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": false
+                        },
+                        "id": "da9b55fa-a084-4a4f-9b76-cc94b5955f7b"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_ACTIVATE",
+                        "args": {
+                          "actorId": "d79ca252-7255-4afe-938c-62afab1cc429"
+                        },
+                        "id": "ce5df15b-4da3-451a-8976-f7e37fa30371"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "8f6af58e-a91f-4847-9d0d-cc49c2c73645"
+                }
+              ],
+              "false": []
+            },
+            "id": "7ad9ce39-f42b-4d22-8507-5909bc46947c"
+          }
+        ],
+        "false": []
+      },
+      "id": "6bb53e87-97cd-4afc-88e1-f2b58c8fb008"
     }
   ],
   "leaveScript": [],
-  "_index": 1
+  "_index": 2
 }

@@ -102,9 +102,7 @@
                             "Oh you want to ",
                             "make needle and",
                             "thread.",
-                            "Here you are.",
-                            "You got",
-                            "Thread and Needle!"
+                            "Here you are."
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -124,6 +122,42 @@
                           "closeDelayFrames": 30
                         },
                         "id": "6c7acd98-4b54-4195-84c0-7c91a7cee36d"
+                      },
+                      {
+                        "command": "EVENT_WAIT",
+                        "args": {
+                          "time": 0.5,
+                          "frames": 30
+                        },
+                        "id": "4e2c2d6e-2782-4626-b870-481e16af35bb"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "You got",
+                            "Thread and Needle!",
+                            "Open inventory",
+                            "to check"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "1a5d6bda-3a21-454b-92cf-17db8537c06b"
                       },
                       {
                         "command": "EVENT_SET_VALUE",
@@ -209,7 +243,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 27,
-  "y": 23,
+  "x": 2,
+  "y": 41,
   "_index": 0
 }

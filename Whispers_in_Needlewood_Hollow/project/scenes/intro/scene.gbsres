@@ -60,7 +60,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__comment": true
+        "__comment": false
       },
       "id": "552d157a-fb0e-4930-b5a9-bde47c08df8a"
     },
@@ -90,11 +90,11 @@
         "sceneId": "bfbce5f5-6bf4-4c92-90e5-96a155e9cb23",
         "x": {
           "type": "number",
-          "value": 9
+          "value": 12
         },
         "y": {
           "type": "number",
-          "value": 10
+          "value": 8
         },
         "direction": "",
         "fadeSpeed": "2"

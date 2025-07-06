@@ -153,6 +153,16 @@
             "id": "5a8fe012-b205-4f1a-9aa5-506d06b3142e"
           },
           {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "12",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "418870c9-d698-44b1-83e6-90708442cafd"
+          },
+          {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "6ded6cbb-5c39-4bc3-b26f-a05bd7a000e3",
