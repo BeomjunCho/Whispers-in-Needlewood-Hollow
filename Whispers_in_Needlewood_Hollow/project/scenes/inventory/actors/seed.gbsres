@@ -24,7 +24,7 @@
           "type": "variable",
           "value": "5"
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -65,7 +65,16 @@
             "id": "77178449-5720-4960-8aa5-03022297234d"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "dda298b2-a652-4f3a-a150-621edb9b14a5"
+            },
+            "id": "e87aa211-c85c-4a70-bd09-9ffb4f757f1c"
+          }
+        ]
       },
       "id": "a83b3306-e701-4430-81da-658cfb59d9fb"
     }

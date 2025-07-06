@@ -21,25 +21,62 @@
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "variable",
-          "value": "6"
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "10"
+          }
         },
         "__collapseElse": false
       },
       "children": {
         "true": [
           {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "6"
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_SPRITE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteSheetId": "149746d8-2b13-4852-894d-6c904ac9eb34"
+                  },
+                  "id": "5c6ab918-c2f5-45fe-b0d0-0a9e7e022932"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_SET_SPRITE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteSheetId": "dda298b2-a652-4f3a-a150-621edb9b14a5"
+                  },
+                  "id": "b2c6626f-5a05-469c-8edf-3bc68b935cf7"
+                }
+              ]
+            },
+            "id": "14694251-94dc-4815-a313-4480cbee0b51"
+          }
+        ],
+        "false": [
+          {
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "149746d8-2b13-4852-894d-6c904ac9eb34"
+              "spriteSheetId": "7661da26-cb80-4cd4-995f-c267469f388c"
             },
-            "id": "5c6ab918-c2f5-45fe-b0d0-0a9e7e022932"
+            "id": "6bd2db64-8539-4962-977f-bcbfe73cea92"
           }
-        ],
-        "false": []
+        ]
       },
-      "id": "14694251-94dc-4815-a313-4480cbee0b51"
+      "id": "76cac109-a7d7-497e-9e12-7216225a5eec"
     }
   ],
   "updateScript": [],

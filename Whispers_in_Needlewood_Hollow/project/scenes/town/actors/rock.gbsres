@@ -15,8 +15,92 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_10",
-  "script": [],
-  "startScript": [],
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "8",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "5b41b626-8e97-4086-b4a9-9a7b1f72ca4f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I found a rock!",
+          "I can make needle",
+          "with this."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "90e12285-10c1-4506-9d8e-ab060f88a37e"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "9"
+      },
+      "id": "f7d7f441-60e4-4c9d-afb3-a53b81e306ff"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "4d554e7a-5f4c-4849-a63b-4f3b2cd05a4f"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "8"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "7f0b453d-2775-4b19-909f-24c8161e9f4a"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "59f838ba-2a2c-4b77-a041-24c0586d2479"
+          }
+        ]
+      },
+      "id": "fb4f13e4-42c3-456d-89cb-59582a06e82b"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

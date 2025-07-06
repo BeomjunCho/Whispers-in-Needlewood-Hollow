@@ -300,6 +300,13 @@
                         "id": "be39636d-bf48-4339-9c06-f338cc139069"
                       },
                       {
+                        "command": "EVENT_INC_VALUE",
+                        "args": {
+                          "variable": "9"
+                        },
+                        "id": "ab5abac4-6383-4ad3-841e-a846bf38bb43"
+                      },
+                      {
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
@@ -331,6 +338,17 @@
                           "spriteSheetId": "4ed236b7-9a5a-4f73-b571-6b16868d3fe0"
                         },
                         "id": "5cc6240e-15e7-46fb-871b-38e1e2214616"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "L2",
+                          "value": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        },
+                        "id": "768a3157-7b2c-44c4-80f9-f479c9f562f0"
                       }
                     ],
                     "false": []

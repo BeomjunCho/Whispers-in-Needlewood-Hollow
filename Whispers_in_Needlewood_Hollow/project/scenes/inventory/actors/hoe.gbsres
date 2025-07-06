@@ -30,7 +30,7 @@
             "type": "true"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -43,7 +43,16 @@
             "id": "8db73fa7-c260-410d-b138-cc496213288a"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "dda298b2-a652-4f3a-a150-621edb9b14a5"
+            },
+            "id": "efe162d2-87e8-4d0d-a41b-b67537fc70f7"
+          }
+        ]
       },
       "id": "79672d75-229c-4e2f-a9bf-0bb2f59e8b4b"
     }
