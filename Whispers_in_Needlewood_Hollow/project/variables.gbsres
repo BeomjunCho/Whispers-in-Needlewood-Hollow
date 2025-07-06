@@ -35,6 +35,11 @@
       "id": "1",
       "name": "EnterTownFromRoom",
       "symbol": "var_entertownfromroom"
+    },
+    {
+      "id": "2",
+      "name": "IntroRoomTextShowed",
+      "symbol": "var_introroomtextshowed"
     }
   ]
 }

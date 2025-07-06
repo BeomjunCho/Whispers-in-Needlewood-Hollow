@@ -17,6 +17,14 @@
   "y": 56,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "6d0d873f-e209-4738-a72a-c090ca3d6dde",
+        "__collapse": false
+      },
+      "id": "1a48716d-62a4-4e5f-8328-6d7d8728b14b"
+    },
+    {
       "command": "EVENT_SCENE_PUSH_STATE",
       "args": {
         "__collapse": false
@@ -37,6 +45,70 @@
         "actorId": "player"
       },
       "id": "b8567f0b-8fd8-4865-a366-845560d20184"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Don’t worry,",
+                "my little bun bun.",
+                "I just need to",
+                "get a needle",
+                "and thread",
+                "to fix you.",
+                "I will find a way."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "33a93d15-cdae-494d-bae0-cdd8eac79fc6"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "37c9fbbb-609e-4c69-944a-42ff40d191cf"
+          }
+        ],
+        "false": []
+      },
+      "id": "dcefdb16-86f3-4490-a4f2-e254c6a0074b"
     },
     {
       "command": "EVENT_IF",
@@ -129,14 +201,6 @@
         "false": []
       },
       "id": "db4489fd-8776-47bf-9a5c-cd9d2d1c8626"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "6d0d873f-e209-4738-a72a-c090ca3d6dde",
-        "__collapse": false
-      },
-      "id": "1a48716d-62a4-4e5f-8328-6d7d8728b14b"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",

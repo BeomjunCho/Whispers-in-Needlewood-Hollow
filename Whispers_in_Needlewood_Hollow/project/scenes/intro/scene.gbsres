@@ -65,6 +65,26 @@
       "id": "552d157a-fb0e-4930-b5a9-bde47c08df8a"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "2afe0559-2191-4e37-92b8-0cfd845184c8"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "0f4ccbea-13c4-4858-bf80-1a3a0dc081a4"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "bfbce5f5-6bf4-4c92-90e5-96a155e9cb23",
@@ -80,16 +100,6 @@
         "fadeSpeed": "2"
       },
       "id": "b4ce3ebe-fe44-44ba-a68e-adedebaba73c"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "0",
-        "value": {
-          "type": "false"
-        }
-      },
-      "id": "0f4ccbea-13c4-4858-bf80-1a3a0dc081a4"
     }
   ],
   "playerHit1Script": [],
