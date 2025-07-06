@@ -1,28 +1,28 @@
 {
   "_resourceType": "sprite",
-  "id": "825e45ae-9d9c-411e-8fd4-5f26264248fe",
-  "name": "witch_pixel_16x16.003",
-  "symbol": "sprite_witch_pixel_16x16_00",
+  "id": "fcece430-5319-483b-92ac-a5ba3d1a5447",
+  "name": "Little Witch",
+  "symbol": "sprite_little_witch",
   "numFrames": 1,
-  "filename": "witch_pixel_16x16.003.png",
-  "checksum": "e79b5fb3065e58d4f1409c1ae29c9da027c341f8",
+  "filename": "Little Witch.png",
+  "checksum": "7c37eb2c0fe869a98c55275133ccf337f5ba63bc",
   "width": 16,
   "height": 16,
   "states": [
     {
-      "id": "fcbe3a15-af84-41f7-917a-de9cc02902d9",
+      "id": "ab46403f-a9a9-46e5-be01-2de9e7984437",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "76e82995-0b94-44b3-af13-f615add0e2f5",
+          "id": "3afedea8-06de-493e-81be-0b1c993ad370",
           "frames": [
             {
-              "id": "2a04fe59-ade5-4ca4-88e6-f7ebd2dbb435",
+              "id": "66b3e017-1f54-4ea2-98b0-a01b5bb962d2",
               "tiles": [
                 {
-                  "id": "edb10e11-73e7-43a5-ad15-998dedc2ef46",
+                  "id": "9e2bbcb0-9f19-4dfa-ba21-3a304794bf6b",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -35,7 +35,7 @@
                   "priority": false
                 },
                 {
-                  "id": "46b8fd50-063c-4ac9-b140-8c3f7618bb27",
+                  "id": "0b1e0859-c3cf-4a97-a144-6743eecd4ea4",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -52,64 +52,64 @@
           ]
         },
         {
-          "id": "05c2c140-b668-4aee-ac73-cb21912a1e80",
+          "id": "ed2afdd2-4d5c-4342-9230-ffe564fad38a",
           "frames": [
             {
-              "id": "bcb4ea1c-4824-4441-9a62-f5a781d7f497",
+              "id": "703fcf24-1216-4bea-a676-4af08e79fd35",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b2ce3f2f-53f4-4ddd-b105-a07acce661c6",
+          "id": "5d0fc2f0-6a80-4333-b211-92b31cbb07ee",
           "frames": [
             {
-              "id": "5eb5acd4-94b8-4175-ac42-606eca87a8c3",
+              "id": "017e2e2d-4ddf-43d5-ac11-661e8b4bbea9",
               "tiles": []
             }
           ]
         },
         {
-          "id": "543ab5be-459a-423e-8039-1466cb5af625",
+          "id": "62726f32-db5b-41d7-8562-3f014bad8eb3",
           "frames": [
             {
-              "id": "110295e7-1e0b-45ed-8c55-1fa86d27a5da",
+              "id": "c9ad0fe5-ce9b-4492-89dd-033b4679d273",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c2bca5ad-bb8f-4358-bd3d-d948e811cff4",
+          "id": "f664c836-1ac5-4910-a417-aaaec0527398",
           "frames": [
             {
-              "id": "9a1a6eff-92aa-45a3-bacb-eb2fcdb4e634",
+              "id": "de841411-22ee-49e5-94a5-2d110f613a36",
               "tiles": []
             }
           ]
         },
         {
-          "id": "fbd9d7fe-d8a1-44d2-a028-5419b108e496",
+          "id": "48f717c4-75ae-4be0-ba36-86bb6d77dcc3",
           "frames": [
             {
-              "id": "396f1812-e725-483a-a658-96b82043faac",
+              "id": "0162d731-c1a3-4057-93e6-5771d89969b9",
               "tiles": []
             }
           ]
         },
         {
-          "id": "97dbe91c-8dd4-4416-a678-be266fe13ac1",
+          "id": "a738023b-0804-4c51-bfe5-01f97433cbd6",
           "frames": [
             {
-              "id": "cedc348c-1b7b-4bb5-bd72-9e2d8e6dd6da",
+              "id": "2b245b88-01a2-4377-89ef-5fd7f8d1c693",
               "tiles": []
             }
           ]
         },
         {
-          "id": "90619346-dd3a-4c83-843e-73b1ddccf2c8",
+          "id": "7eb694b2-c6d8-4635-931d-d302ea333676",
           "frames": [
             {
-              "id": "b178177a-f65f-4c65-a345-1f2bd01c4753",
+              "id": "fe10ee88-c701-41b3-af47-53e002f9568b",
               "tiles": []
             }
           ]

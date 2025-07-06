@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "bfbce5f5-6bf4-4c92-90e5-96a155e9cb23",
+  "_index": 4,
+  "name": "Scene 5",
+  "backgroundId": "369f0cd4-80c6-4d67-b456-48e4ffba3fc7",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 883.3333333333334,
+  "y": 30,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "fcece430-5319-483b-92ac-a5ba3d1a5447"
+}

@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
   "id": "0538d428-69eb-480d-b189-59bfa66634d7",
-  "_index": 2,
+  "_index": 3,
   "type": "TOPDOWN",
-  "name": "Forest",
+  "name": "Scene 4",
   "symbol": "scene_4",
   "x": 937,
   "y": 259,
@@ -23,16 +23,8 @@
   ],
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
-  "playerSpriteSheetId": "825e45ae-9d9c-411e-8fd4-5f26264248fe",
-  "script": [
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "6d0d873f-e209-4738-a72a-c090ca3d6dde"
-      },
-      "id": "d35ee7bf-b284-41f0-9ab1-1ee963b4dd1b"
-    }
-  ],
+  "playerSpriteSheetId": "fcece430-5319-483b-92ac-a5ba3d1a5447",
+  "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
