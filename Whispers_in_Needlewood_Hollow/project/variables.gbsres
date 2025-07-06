@@ -5,6 +5,36 @@
       "id": "216bdba4-2533-4393-bdb6-b52389bec01d__L0",
       "name": "Menu Choice",
       "symbol": "var_menu_choice"
+    },
+    {
+      "id": "bfbce5f5-6bf4-4c92-90e5-96a155e9cb23__L0",
+      "name": "PlayerPosX",
+      "symbol": "var_playerposx_0"
+    },
+    {
+      "id": "bfbce5f5-6bf4-4c92-90e5-96a155e9cb23__L1",
+      "name": "PlayerPosY",
+      "symbol": "var_playerposy_0"
+    },
+    {
+      "id": "0538d428-69eb-480d-b189-59bfa66634d7__L0",
+      "name": "PlayerPosX",
+      "symbol": "var_playerposx"
+    },
+    {
+      "id": "0538d428-69eb-480d-b189-59bfa66634d7__L1",
+      "name": "PlayerPosY",
+      "symbol": "var_playerposy"
+    },
+    {
+      "id": "0",
+      "name": "EnterRoomFromTown",
+      "symbol": "var_enterroomfromtown"
+    },
+    {
+      "id": "1",
+      "name": "EnterTownFromRoom",
+      "symbol": "var_entertownfromroom"
     }
   ]
 }
