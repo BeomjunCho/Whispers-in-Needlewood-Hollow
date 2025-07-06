@@ -3,16 +3,16 @@
   "id": "3f778ba6-6faf-42de-9ed7-1c1f3f084a4f",
   "name": "bagItem_spritSheet",
   "symbol": "sprite_bagitem_spritsheet",
-  "numFrames": 3,
+  "numFrames": 3.5,
   "filename": "bagItem_spritSheet.png",
-  "checksum": "33a5130fdd43eaa922a93c93226f9343510842d4",
-  "width": 48,
+  "checksum": "7f06b971a30f4c95ee1ca9cef3de1dfcaa3430d9",
+  "width": 56,
   "height": 8,
   "states": [
     {
       "id": "2c1e62ae-7d69-4d79-b782-5c1facbb0119",
       "name": "",
-      "animationType": "multi_movement",
+      "animationType": "fixed",
       "flipLeft": true,
       "animations": [
         {
@@ -20,7 +20,21 @@
           "frames": [
             {
               "id": "c2f911cf-64c9-4a5f-9a2a-f9a4aa95a6eb",
-              "tiles": []
+              "tiles": [
+                {
+                  "id": "73a2d48a-ab44-4abf-a769-22224f8f55ed",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": -8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
             }
           ]
         },
@@ -90,9 +104,9 @@
       ]
     }
   ],
-  "numTiles": 0,
-  "canvasWidth": 32,
-  "canvasHeight": 32,
+  "numTiles": 1,
+  "canvasWidth": 8,
+  "canvasHeight": 16,
   "boundsX": 0,
   "boundsY": 0,
   "boundsWidth": 16,
