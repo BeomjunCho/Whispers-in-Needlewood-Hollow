@@ -17,6 +17,14 @@
   "y": 100,
   "script": [
     {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 5,
+        "frames": 30
+      },
+      "id": "c976eefe-1332-407a-b013-4e191cf39bf2"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "216bdba4-2533-4393-bdb6-b52389bec01d",

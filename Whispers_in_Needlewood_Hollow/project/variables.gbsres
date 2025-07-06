@@ -42,6 +42,21 @@
       "symbol": "var_plantseedglobal"
     },
     {
+      "id": "8",
+      "name": "RockPicked",
+      "symbol": "var_rockpicked"
+    },
+    {
+      "id": "9",
+      "name": "GotCottonAndRock",
+      "symbol": "var_gotcottonandrock"
+    },
+    {
+      "id": "10",
+      "name": "GotNeedleAndThread",
+      "symbol": "var_gotneedleandthread"
+    },
+    {
       "id": "216bdba4-2533-4393-bdb6-b52389bec01d__L0",
       "name": "Menu Choice",
       "symbol": "var_menu_choice"
@@ -112,24 +127,14 @@
       "symbol": "var_harvest"
     },
     {
-      "id": "8",
-      "name": "RockPicked",
-      "symbol": "var_rockpicked"
-    },
-    {
-      "id": "9",
-      "name": "GotCottonAndRock",
-      "symbol": "var_gotcottonandrock"
-    },
-    {
       "id": "de0f0dbb-dc9e-40c1-aa99-c6e8cd759a08__L0",
       "name": "ShowedCottonRock",
       "symbol": "var_showedcottonrock"
     },
     {
-      "id": "10",
-      "name": "GotNeedleAndThread",
-      "symbol": "var_gotneedleandthread"
+      "id": "11",
+      "name": "WaterFilled",
+      "symbol": "var_waterfilled"
     }
   ]
 }
