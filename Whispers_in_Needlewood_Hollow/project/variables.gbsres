@@ -2,6 +2,36 @@
   "_resourceType": "variables",
   "variables": [
     {
+      "id": "0",
+      "name": "EnterRoomFromTown",
+      "symbol": "var_enterroomfromtown"
+    },
+    {
+      "id": "1",
+      "name": "EnterTownFromRoom",
+      "symbol": "var_entertownfromroom"
+    },
+    {
+      "id": "2",
+      "name": "IntroRoomTextShowed",
+      "symbol": "var_introroomtextshowed"
+    },
+    {
+      "id": "3",
+      "name": "GotHoeAndWateringCan",
+      "symbol": "var_gothoeandwateringcan"
+    },
+    {
+      "id": "4",
+      "name": "Cultivated",
+      "symbol": "var_cultivated"
+    },
+    {
+      "id": "5",
+      "name": "SeedPicked",
+      "symbol": "var_seedpicked"
+    },
+    {
       "id": "216bdba4-2533-4393-bdb6-b52389bec01d__L0",
       "name": "Menu Choice",
       "symbol": "var_menu_choice"
@@ -27,19 +57,59 @@
       "symbol": "var_playerposy"
     },
     {
-      "id": "0",
-      "name": "EnterRoomFromTown",
-      "symbol": "var_enterroomfromtown"
+      "id": "cba3740c-96eb-4d0a-88e1-856b76dbd5cc__L0",
+      "name": "Entered",
+      "symbol": "var_entered"
     },
     {
-      "id": "1",
-      "name": "EnterTownFromRoom",
-      "symbol": "var_entertownfromroom"
+      "id": "a2f1b7d0-84e1-43db-8c4e-4706140d19fa__L0",
+      "name": "Talked",
+      "symbol": "var_talked"
     },
     {
-      "id": "2",
-      "name": "IntroRoomTextShowed",
-      "symbol": "var_introroomtextshowed"
+      "id": "5a1a96ba-f6ed-4ea8-958a-ef9cb8db8d0e__L0",
+      "name": "DoCultivate",
+      "symbol": "var_docultivate"
+    },
+    {
+      "id": "d79ca252-7255-4afe-938c-62afab1cc429__L0",
+      "name": "PlantSeed",
+      "symbol": "var_plantseed"
+    },
+    {
+      "id": "c793efb5-d481-4d08-9d84-ce09c3d9240a__L0",
+      "name": "SelectCulti",
+      "symbol": "var_selectculti"
+    },
+    {
+      "id": "0a600477-ffea-493c-8b70-259fdf1e828b__L0",
+      "name": "DoCulti",
+      "symbol": "var_doculti"
+    },
+    {
+      "id": "d79ca252-7255-4afe-938c-62afab1cc429__L1",
+      "name": "GiveWater",
+      "symbol": "var_givewater"
+    },
+    {
+      "id": "d79ca252-7255-4afe-938c-62afab1cc429__L2",
+      "name": "HowManyWater",
+      "symbol": "var_howmanywater"
+    },
+    {
+      "id": "d79ca252-7255-4afe-938c-62afab1cc429__L3",
+      "name": "Harvest",
+      "symbol": "var_harvest"
+    },
+    {
+      "id": "6",
+      "name": "GotCotton",
+      "symbol": "var_gotcotton"
+    },
+    {
+      "id": "7",
+      "name": "PlantSeedGlobal",
+      "symbol": "var_plantseedglobal"
     }
   ]
 }

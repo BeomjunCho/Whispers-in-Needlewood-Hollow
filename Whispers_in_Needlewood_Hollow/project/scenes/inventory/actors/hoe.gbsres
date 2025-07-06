@@ -1,0 +1,58 @@
+{
+  "_resourceType": "actor",
+  "id": "5e79177d-fd7a-4116-8567-c21b4ac4198d",
+  "name": "Hoe",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dda298b2-a652-4f3a-a150-621edb9b14a5",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_19",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "6f3d5b0a-3a3e-4a58-8b5c-956b84b508c1"
+            },
+            "id": "8db73fa7-c260-410d-b138-cc496213288a"
+          }
+        ],
+        "false": []
+      },
+      "id": "79672d75-229c-4e2f-a9bf-0bb2f59e8b4b"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 7,
+  "y": 12,
+  "_index": 0
+}

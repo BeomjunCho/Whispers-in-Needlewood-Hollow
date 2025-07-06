@@ -60,7 +60,8 @@
           }
         },
         "__collapseElse": true,
-        "__disableElse": true
+        "__disableElse": true,
+        "__comment": true
       },
       "children": {
         "true": [

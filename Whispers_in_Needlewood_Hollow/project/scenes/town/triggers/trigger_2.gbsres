@@ -1,0 +1,82 @@
+{
+  "_resourceType": "trigger",
+  "id": "cba3740c-96eb-4d0a-88e1-856b76dbd5cc",
+  "name": "",
+  "prefabId": "",
+  "x": 41,
+  "y": 12,
+  "symbol": "trigger_2",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "“I need to grow ",
+                "cotton for thread,",
+                "and gather stones ",
+                "to make a needle.",
+                "But I don’t have",
+                "any tools yet.",
+                "I should go",
+                "look for them."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "442c6514-43c3-4564-8b6c-07672e98effe"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "4501a835-caea-46ae-980b-f9d737be0f53"
+          }
+        ],
+        "false": []
+      },
+      "id": "34d40f2d-02f0-4c9e-b0bb-a05c7cab4d05"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

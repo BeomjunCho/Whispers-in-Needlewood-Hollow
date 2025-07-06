@@ -1,0 +1,103 @@
+{
+  "_resourceType": "actor",
+  "id": "749bf93a-9bc1-4eda-a054-3ab693b8b1ec",
+  "name": "Seed",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "7e312f9d-fcf4-41a4-89da-6dd2d838355d",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_18",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "073f375b-52ea-4089-9e41-a62d26716e00"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I Found a seed!",
+          "Need to plant this"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "520641ae-c989-4244-85e9-b136598be8d3"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "f44f58fa-9c9c-4c34-8ff1-efe099c623d3"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "5"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "b3cb3edb-2799-4a97-853a-a279f56c295e"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "ac8185ea-dcf8-4e5e-ac49-139d1475bac1"
+          }
+        ]
+      },
+      "id": "cc11c612-b5ff-45f1-abb0-aedad44ca26b"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 32,
+  "y": 20,
+  "_index": 5
+}

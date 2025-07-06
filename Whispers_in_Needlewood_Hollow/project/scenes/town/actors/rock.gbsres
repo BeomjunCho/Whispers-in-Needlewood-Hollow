@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "a2f1b7d0-84e1-43db-8c4e-4706140d19fa",
-  "name": "",
+  "id": "0a382559-d867-4f51-8c21-017b7abb38fd",
+  "name": "Rock",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "ff6b1b9c-e02e-4dd6-bcb4-f068ddb03421",
+  "spriteSheetId": "45432670-7868-4177-ba40-0a10a09e785f",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,14 +14,14 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_8",
+  "symbol": "actor_10",
   "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 15,
-  "y": 17,
-  "_index": 3
+  "x": 30,
+  "y": 20,
+  "_index": 4
 }

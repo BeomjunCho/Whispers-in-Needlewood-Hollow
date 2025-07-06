@@ -1,0 +1,58 @@
+{
+  "_resourceType": "actor",
+  "id": "50a8c385-a971-46af-8ffd-6fef68815879",
+  "name": "Water can",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dda298b2-a652-4f3a-a150-621edb9b14a5",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_5",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "cb6fe881-1410-41f9-b5bf-05f11f2ea4eb"
+            },
+            "id": "f4644a69-a1b6-4139-ac0e-48e811538463"
+          }
+        ],
+        "false": []
+      },
+      "id": "36a503c1-89d9-436f-9709-6f2895f5b40c"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 12,
+  "_index": 4
+}

@@ -1,0 +1,80 @@
+{
+  "_resourceType": "actor",
+  "id": "4cd948f5-023a-4ce7-985c-85e36b4459af",
+  "name": "Seed",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dda298b2-a652-4f3a-a150-621edb9b14a5",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_0",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "5"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "not",
+                "value": {
+                  "type": "variable",
+                  "value": "7"
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_SPRITE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteSheetId": "7e312f9d-fcf4-41a4-89da-6dd2d838355d"
+                  },
+                  "id": "d004f6b0-79a6-4dd8-b86b-3f98b29a63fd"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_SET_SPRITE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteSheetId": "dda298b2-a652-4f3a-a150-621edb9b14a5"
+                  },
+                  "id": "495e39c1-9d51-4300-bb74-83dec5d83dfb"
+                }
+              ]
+            },
+            "id": "77178449-5720-4960-8aa5-03022297234d"
+          }
+        ],
+        "false": []
+      },
+      "id": "a83b3306-e701-4430-81da-658cfb59d9fb"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 7,
+  "y": 9,
+  "_index": 1
+}

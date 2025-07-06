@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "de0f0dbb-dc9e-40c1-aa99-c6e8cd759a08",
-  "name": "",
+  "name": "ElderWitch",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "57b2a4a2-1dba-4f8b-945f-19707cfa1616",
@@ -21,7 +21,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 2,
-  "y": 41,
-  "_index": 2
+  "x": 27,
+  "y": 23,
+  "_index": 0
 }

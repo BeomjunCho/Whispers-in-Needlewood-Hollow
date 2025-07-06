@@ -1,0 +1,418 @@
+{
+  "_resourceType": "actor",
+  "id": "d79ca252-7255-4afe-938c-62afab1cc429",
+  "name": "TileSoil",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "83c0e99a-bbf4-4b53-9284-47f2db253967",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_4",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "6"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "not",
+                "value": {
+                  "type": "eq",
+                  "valueA": {
+                    "type": "variable",
+                    "value": "L2"
+                  },
+                  "valueB": {
+                    "type": "number",
+                    "value": 3
+                  }
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "not",
+                      "value": {
+                        "type": "variable",
+                        "value": "L0"
+                      }
+                    },
+                    "__collapseElse": false,
+                    "__disableElse": false,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "variable",
+                            "value": "5"
+                          },
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_CHOICE",
+                              "args": {
+                                "variable": "L0",
+                                "trueText": "Plant seed?",
+                                "falseText": "No"
+                              },
+                              "id": "e3eae0be-cf34-4868-b53e-55b1798bad45"
+                            },
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "condition": {
+                                  "type": "variable",
+                                  "value": "L0"
+                                },
+                                "__collapseElse": true,
+                                "__disableElse": true
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_ACTOR_SET_SPRITE",
+                                    "args": {
+                                      "actorId": "$self$",
+                                      "spriteSheetId": "ecd66847-a863-415c-837c-ac0dd96f1246"
+                                    },
+                                    "id": "aae69b57-d406-48d4-9378-c388dbd82b6a"
+                                  },
+                                  {
+                                    "command": "EVENT_SET_VALUE",
+                                    "args": {
+                                      "variable": "7",
+                                      "value": {
+                                        "type": "true"
+                                      }
+                                    },
+                                    "id": "57c9a420-2341-4a77-801e-9e23da0b037e"
+                                  }
+                                ],
+                                "false": []
+                              },
+                              "id": "9ab7ae1f-ca57-4b22-9e3a-1bfdb8f2af2b"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "Need to find Seed."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "1ff7b711-4622-484f-8346-4669f9b83706"
+                            }
+                          ]
+                        },
+                        "id": "94fc7e90-29b0-48b6-a047-41dc6806d635"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_CHOICE",
+                        "args": {
+                          "variable": "L1",
+                          "trueText": "Give some water",
+                          "falseText": "Nope"
+                        },
+                        "id": "45c775c1-fb8b-4c5a-bbd4-a7097873195c"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "variable",
+                            "value": "L1"
+                          },
+                          "__collapseElse": true,
+                          "__disableElse": true
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_ACTOR_SET_SPRITE",
+                              "args": {
+                                "actorId": "$self$",
+                                "spriteSheetId": "cdef33c1-a9eb-4d92-b30f-36109855ac94"
+                              },
+                              "id": "805cfc8c-b750-4172-8b3d-fe888e421195"
+                            },
+                            {
+                              "command": "EVENT_INC_VALUE",
+                              "args": {
+                                "variable": "L2"
+                              },
+                              "id": "64b50e46-d200-4a93-8944-c6eff4b7afea"
+                            },
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "condition": {
+                                  "type": "eq",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "L2"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 2
+                                  }
+                                },
+                                "__collapseElse": true,
+                                "__disableElse": true,
+                                "__collapse": false
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_ACTOR_SET_SPRITE",
+                                    "args": {
+                                      "actorId": "$self$",
+                                      "spriteSheetId": "0f83bb7b-fd2c-43cc-9c8c-2d63c32fb12c"
+                                    },
+                                    "id": "a7c1d72b-6540-4b98-9743-c49b017aeb77"
+                                  }
+                                ],
+                                "false": []
+                              },
+                              "id": "b16c7c45-7f5c-42c8-a1a5-99cc32763e02"
+                            },
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "condition": {
+                                  "type": "eq",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "L2"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 3
+                                  }
+                                },
+                                "__collapseElse": true,
+                                "__disableElse": true
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_ACTOR_SET_SPRITE",
+                                    "args": {
+                                      "actorId": "$self$",
+                                      "spriteSheetId": "73ef00ad-d11b-4da8-b0c8-1ce14b4feb02"
+                                    },
+                                    "id": "0028298f-7e8d-42f7-b912-787997484894"
+                                  }
+                                ],
+                                "false": []
+                              },
+                              "id": "5ad32222-19fa-4cb7-a2f4-3bd3f0a20dd0"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "7901dbfe-fcbc-4e83-97eb-10ad48f8090c"
+                      }
+                    ]
+                  },
+                  "id": "aeb8825b-379f-4ccd-b2ec-bc1f9d5ceca8"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_CHOICE",
+                  "args": {
+                    "variable": "L3",
+                    "trueText": "Harvest?",
+                    "falseText": "No"
+                  },
+                  "id": "dd126d53-b8ae-4e5f-ad3b-c75155339ac8"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "variable",
+                      "value": "L3"
+                    },
+                    "__collapseElse": true,
+                    "__disableElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "6",
+                          "value": {
+                            "type": "true"
+                          }
+                        },
+                        "id": "be39636d-bf48-4339-9c06-f338cc139069"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "You got Cotton!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "5979d449-2405-4286-9e83-65b8bb0acda4"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_SPRITE",
+                        "args": {
+                          "actorId": "$self$",
+                          "spriteSheetId": "4ed236b7-9a5a-4f73-b571-6b16868d3fe0"
+                        },
+                        "id": "5cc6240e-15e7-46fb-871b-38e1e2214616"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "f85dd17e-b12b-40bd-8440-b2e348502633"
+                }
+              ]
+            },
+            "id": "f5914845-4496-4e1a-85d0-0ff7db65cbcc"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Land seems like",
+                "No energy.."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "4a838807-bb0a-4c3c-a8e5-7c5c9c35d501"
+          }
+        ]
+      },
+      "id": "ebcd3734-2856-4ad3-8715-3848bb9f5b53"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "4"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": false
+            },
+            "id": "fa08399a-c723-491d-adfb-173e3fa9815e"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "49212ee7-7e3c-40f8-9530-2df1047dd18b"
+          }
+        ]
+      },
+      "id": "7c828d70-fd96-4bb1-8096-a0a19656c012"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 36,
+  "y": 6,
+  "_index": 6
+}
