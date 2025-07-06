@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "7b52a549-5d53-4dda-8862-13e35a1b886c",
+  "name": "Bag",
+  "symbol": "bg_bag",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Bag.png",
+  "tileColors": ""
+}

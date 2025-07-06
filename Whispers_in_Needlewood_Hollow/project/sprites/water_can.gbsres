@@ -12,7 +12,7 @@
     {
       "id": "081fc027-d28d-4362-a4ef-315b021de72f",
       "name": "",
-      "animationType": "multi_movement",
+      "animationType": "fixed",
       "flipLeft": true,
       "animations": [
         {
