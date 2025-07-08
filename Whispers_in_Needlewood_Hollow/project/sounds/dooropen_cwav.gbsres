@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "7e039c97-dfed-490e-be7d-4257de256b7a",
+  "name": "DoorOpen_c.wav",
+  "symbol": "sound_dooropen_c_wav",
+  "filename": "DoorOpen_c.wav",
+  "type": "wav"
+}

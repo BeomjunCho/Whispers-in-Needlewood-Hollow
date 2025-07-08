@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "c869067d-b4c9-4627-a142-1b13ae21a08d",
+  "name": "MenuMusic",
+  "symbol": "song_menumusic",
+  "filename": "MenuMusic.uge",
+  "settings": {},
+  "type": "uge"
+}
