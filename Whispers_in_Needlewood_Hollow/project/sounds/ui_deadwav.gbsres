@@ -1,8 +1,0 @@
-{
-  "_resourceType": "sound",
-  "id": "0e9672d1-8223-4f96-9953-1b9372f5402e",
-  "name": "UI_Dead.wav",
-  "symbol": "sound_ui_dead_wav",
-  "filename": "UI_Dead.wav",
-  "type": "wav"
-}

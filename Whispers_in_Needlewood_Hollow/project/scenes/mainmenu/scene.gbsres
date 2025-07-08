@@ -25,6 +25,13 @@
   "autoFadeSpeed": 1,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "c869067d-b4c9-4627-a142-1b13ae21a08d"
+      },
+      "id": "3d01121f-6880-4908-aa2f-e750c8ec797a"
+    },
+    {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"

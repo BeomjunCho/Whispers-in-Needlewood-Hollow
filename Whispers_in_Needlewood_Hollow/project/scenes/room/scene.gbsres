@@ -17,14 +17,6 @@
   "y": 56,
   "script": [
     {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "6d0d873f-e209-4738-a72a-c090ca3d6dde",
-        "__collapse": false
-      },
-      "id": "1a48716d-62a4-4e5f-8328-6d7d8728b14b"
-    },
-    {
       "command": "EVENT_SCENE_PUSH_STATE",
       "args": {
         "__collapse": false

@@ -19,7 +19,7 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 5,
+        "time": 4,
         "frames": 30
       },
       "id": "c976eefe-1332-407a-b013-4e191cf39bf2"
