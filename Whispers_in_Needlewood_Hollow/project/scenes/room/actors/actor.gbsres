@@ -28,40 +28,118 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_SET_SPRITE",
+            "command": "EVENT_IF",
             "args": {
-              "actorId": "$self$",
-              "spriteSheetId": "5686a979-2b8e-4d56-afcd-e04bb400bfc6"
+              "condition": {
+                "type": "not",
+                "value": {
+                  "type": "variable",
+                  "value": "L0"
+                }
+              },
+              "__collapseElse": false,
+              "__disableElse": false
             },
-            "id": "99ec5542-5b4b-4ff5-becf-58f9ed5c6489"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "You carefully \nsew your bunny.",
-                "After some time...",
-                "You fixed your \nbunny!",
-                "It smiles happily."
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "You carefully \nsew your bunny.",
+                      "After some time..."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "d30e83d5-3abb-425c-bf09-aa9b5df589f1"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 1,
+                    "frames": 30
+                  },
+                  "id": "a032c641-1442-4e32-a321-27849c3cb17f"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_SPRITE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteSheetId": "5686a979-2b8e-4d56-afcd-e04bb400bfc6"
+                  },
+                  "id": "99ec5542-5b4b-4ff5-becf-58f9ed5c6489"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "You fixed your \nbunny!",
+                      "It smiles happily."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "232179ec-9210-4785-bfcb-eb1bd400f9a8"
+                }
               ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Your bunny \nis happy!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "b83842fa-76bb-4eae-a6c4-08f4da321d6b"
+                }
+              ]
             },
-            "id": "d30e83d5-3abb-425c-bf09-aa9b5df589f1"
+            "id": "b06d3e67-dbc3-4e23-a93e-aaad67f1ebff"
           },
           {
             "command": "EVENT_SET_VALUE",
@@ -73,6 +151,16 @@
               }
             },
             "id": "bc49e8d0-ea3c-4431-bb58-f468326974fa"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "840652ec-3323-4b35-8745-76b1707d9cbb"
           }
         ],
         "false": [

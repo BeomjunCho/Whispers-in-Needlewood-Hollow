@@ -11,31 +11,67 @@
   "height": 1,
   "script": [
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_CHOICE",
       "args": {
-        "variable": "0",
-        "value": {
-          "type": "true"
-        }
+        "variable": "L0",
+        "trueText": "Get in the house?",
+        "falseText": "No."
       },
-      "id": "2d8c67fc-283d-46cf-b93b-319a57c9964c"
+      "id": "262865ef-1b4f-4999-81e5-39e608347cba"
     },
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "bfbce5f5-6bf4-4c92-90e5-96a155e9cb23",
-        "x": {
-          "type": "number",
-          "value": 9
+        "condition": {
+          "type": "variable",
+          "value": "L0"
         },
-        "y": {
-          "type": "number",
-          "value": 13
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "__collapseElse": true
       },
-      "id": "dbee02ad-3625-475d-baf2-adfee25d3fb9"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": false
+            },
+            "id": "2d8c67fc-283d-46cf-b93b-319a57c9964c"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "e1a50b3f-bfa0-462c-b9eb-045796d63ce0"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "bfbce5f5-6bf4-4c92-90e5-96a155e9cb23",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "dbee02ad-3625-475d-baf2-adfee25d3fb9"
+          }
+        ],
+        "false": []
+      },
+      "id": "be467c81-1e59-4e19-b535-0b005b9d7f34"
     }
   ],
   "leaveScript": [],

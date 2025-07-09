@@ -150,6 +150,21 @@
       "id": "d79ca252-7255-4afe-938c-62afab1cc429__L5",
       "name": "TimeOut",
       "symbol": "var_timeout"
+    },
+    {
+      "id": "0bc5e13d-fbb1-45b5-9e94-d0c1e7eaf380__L0",
+      "name": "GetIn",
+      "symbol": "var_getin"
+    },
+    {
+      "id": "3d15ea0c-54f6-4763-8fbf-3eb159782cfd__L0",
+      "name": "GetOut",
+      "symbol": "var_getout"
+    },
+    {
+      "id": "84dedaec-bb1d-47c0-8fbc-dbf34fd106e5__L0",
+      "name": "Bunny Fixed",
+      "symbol": "var_bunny_fixed"
     }
   ]
 }

@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "0015+0f12+002+0f!00!0f!00e+0f!002+0f!00!0f!00e+0f!002+0f!002+0f!00d+0f!002+0f!002+0f!029+004+0f!002+0f!002+0f!009+08!013+0f!002+0f4+00c+0f2+002+0f!00f+0f2+002+0f!00d+0f4+002+0f!08!0f!04!0f!008+08!023+0f!002+0f!08!0f!04!0f!00c+0f!002+0f!00!01!0f2+00c+0f!002+0f!00d+0f4+002+0f!00c+0f!00!0f3+002+0f8+002+0f8+00a+0f2+001d+",
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
   "x": 960,
@@ -37,69 +37,6 @@
         "actorId": "player"
       },
       "id": "b8567f0b-8fd8-4865-a366-845560d20184"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "2"
-          },
-          "valueB": {
-            "type": "false"
-          }
-        },
-        "__collapseElse": true,
-        "__disableElse": true,
-        "__comment": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Your bunny...",
-                "You just need to \nfind a thread,\nand a needle.",
-                "You steel your \nresolve.",
-                "You will fix your\nbunny.",
-                "You have to."
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "33a93d15-cdae-494d-bae0-cdd8eac79fc6"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "2",
-              "value": {
-                "type": "true"
-              }
-            },
-            "id": "37c9fbbb-609e-4c69-944a-42ff40d191cf"
-          }
-        ],
-        "false": []
-      },
-      "id": "dcefdb16-86f3-4490-a4f2-e254c6a0074b"
     },
     {
       "command": "EVENT_IF",
@@ -192,6 +129,69 @@
         "false": []
       },
       "id": "db4489fd-8776-47bf-9a5c-cd9d2d1c8626"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__comment": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Your bunny...",
+                "You just need to \nfind a thread,\nand a needle.",
+                "You steel your \nresolve.",
+                "You will fix your\nbunny.",
+                "You have to."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "33a93d15-cdae-494d-bae0-cdd8eac79fc6"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "37c9fbbb-609e-4c69-944a-42ff40d191cf"
+          }
+        ],
+        "false": []
+      },
+      "id": "dcefdb16-86f3-4490-a4f2-e254c6a0074b"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
