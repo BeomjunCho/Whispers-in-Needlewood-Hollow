@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "a2e1270d-b8e4-45bf-9e4e-e2a8753504a1",
+  "name": "EndingMusic",
+  "symbol": "song_endingmusic",
+  "filename": "EndingMusic.uge",
+  "settings": {},
+  "type": "uge"
+}

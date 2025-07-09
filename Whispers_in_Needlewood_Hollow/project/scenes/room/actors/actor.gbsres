@@ -109,6 +109,33 @@
                     "closeDelayFrames": 30
                   },
                   "id": "232179ec-9210-4785-bfcb-eb1bd400f9a8"
+                },
+                {
+                  "command": "EVENT_MUSIC_STOP",
+                  "args": {},
+                  "id": "c1762cb4-e854-4f69-98b1-5722d513b409"
+                },
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "a2e1270d-b8e4-45bf-9e4e-e2a8753504a1"
+                  },
+                  "id": "3cc8efb0-46dc-4230-9a3d-88abd5c2d159"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 1.8,
+                    "frames": 30
+                  },
+                  "id": "9511b4ea-8dc4-42ab-a175-3209b014ac39"
+                },
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "6d0d873f-e209-4738-a72a-c090ca3d6dde"
+                  },
+                  "id": "c6dd71e3-bd63-4c12-a0b8-fac7059870e2"
                 }
               ],
               "false": [
@@ -170,7 +197,7 @@
               "text": [
                 "Your bunny...\n",
                 "You feel\nresponsible for \nit being broken...",
-                "You resolve to fix it."
+                "You resolve to \nfix it."
               ],
               "__section": "text",
               "avatarId": "",
