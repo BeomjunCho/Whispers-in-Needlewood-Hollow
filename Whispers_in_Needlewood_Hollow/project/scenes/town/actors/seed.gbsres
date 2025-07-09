@@ -30,8 +30,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "I Found a seed!",
-          "Need to plant this"
+          "You found a seed!",
+          "You should plant \nthis in your \ngarden."
         ],
         "__section": "text",
         "avatarId": "",

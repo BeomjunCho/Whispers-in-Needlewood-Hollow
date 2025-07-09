@@ -44,8 +44,16 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Here are Hoe and ",
-                "Watering can."
+                "Hello ,\nLittle Witch.\nIt's always nice\nto see you.",
+                "I see.. your bunny\nis broken?",
+                "I'm afraid I don't\nhave a needle and\nthread. However...",
+                "You listen \nclosely.",
+                "If you search the \nforest for some\ncotton seeds, and \na big enough rock.",
+                "You can take the\nmaterials to the\nElder Witch.",
+                "She lives in \nseclusion, south \nof here, off the\nbeaten path.",
+                "I'm sure she can \nmake you a needle\nand thread.",
+                "You didn't hear \nthat from me,\nteehee.",
+                "Here, take these."
               ],
               "__section": "text",
               "avatarId": "",
@@ -78,8 +86,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "You got Hoe and ",
-                "Watering can."
+                "Hoe added.",
+                "Watering Can\nadded.",
+                "You'll have to \ngrow the cotton\nyourself I'm \nafraid.",
+                "The seeds look\nlike tiny black\ndots, so look\ncarefully."
               ],
               "__section": "text",
               "avatarId": "",
@@ -112,9 +122,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Press",
-                "Select/Shift",
-                "to open inventory."
+                "Press Select \nto open the \ninventory."
               ],
               "__section": "text",
               "avatarId": "",
@@ -151,10 +159,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "The seeds look",
-                "like tiny black",
-                "dot, so look",
-                "carefully."
+                "The seeds look\nlike tiny black\ndots, so look\ncarefully."
               ],
               "__section": "text",
               "avatarId": "",

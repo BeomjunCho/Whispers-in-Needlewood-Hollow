@@ -52,8 +52,8 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Hi little witch.",
-                      "Do you need help?"
+                      "Hello little \nwitch, ",
+                      "It's always nice \nto see you."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -78,7 +78,7 @@
                   "command": "EVENT_CHOICE",
                   "args": {
                     "variable": "L0",
-                    "trueText": "Show cotton rock",
+                    "trueText": "Show Materials",
                     "falseText": "Nothing"
                   },
                   "id": "9d48ee29-078a-4bad-bf65-7ae8bdf1a7eb"
@@ -99,10 +99,18 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Oh you want to ",
-                            "make needle and",
-                            "thread.",
-                            "Here you are."
+                            "You show the \nwitch. The rock \nyou found, and the\ncotton you grew.",
+                            "Ah... I see you \nwish to make some\nthread and a\nneedle?",
+                            "You nod.",
+                            "Very well, one \nmoment.",
+                            "Cotton removed",
+                            "Rock removed",
+                            "You watch as the \nelder witch uses\nearth magic. ",
+                            "The rock hums as \npieces of the rock\nchip away into a \nfine needle.",
+                            "You watch as the\nelder witch uses \nanother magic.",
+                            "The cotton you \ncultivated\nseperates into \nthin strands.",
+                            "The strands twist \naround each other\ninto a strong\nthread.",
+                            "Here you go little\nwitch, use these \nwisely."
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -135,10 +143,8 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "You got",
-                            "Thread and Needle!",
-                            "Open inventory",
-                            "to check"
+                            "Stone Needle\nadded.",
+                            "Cotton Thread\nadded."
                           ],
                           "__section": "text",
                           "avatarId": "",

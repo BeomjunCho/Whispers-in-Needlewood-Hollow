@@ -19,7 +19,8 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "6d0d873f-e209-4738-a72a-c090ca3d6dde"
+        "musicId": "6d0d873f-e209-4738-a72a-c090ca3d6dde",
+        "__collapse": true
       },
       "id": "0e6d4a52-6027-4696-a173-b463adad7959"
     },
@@ -34,22 +35,11 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "In the depths ",
-          "of Needlewood ",
-          "forest,",
-          "dangerous beasts",
-          "roam freely.",
-          "To protect you ",
-          "from harm,",
-          "your beloved ",
-          "bunny doll bravely",
-          "shielded her.",
-          "Though it was",
-          "torn apart in",
-          "the struggle,",
-          "you are determined",
-          "to find a way to ",
-          "fix it."
+          "In the depths of \nNeedlewood forest,",
+          "dangerous beasts \nroam freely.",
+          "To protect you \nfrom harm, your \nbeloved bunny \ndoll shielded you.",
+          "Though it was \ntorn apart in \nthe struggle,",
+          "you are \ndetermined \nto find a way \nto fix it."
         ],
         "__section": "text",
         "avatarId": "",

@@ -39,9 +39,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "You fixed your",
-                "Bunny!",
-                "She looks happy!"
+                "You carefully \nsew your bunny.",
+                "After some time...",
+                "You fixed your \nbunny!",
+                "It smiles happily."
               ],
               "__section": "text",
               "avatarId": "",
@@ -79,7 +80,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "I will fix you..."
+                "I will fix you...",
+                "I promise."
               ],
               "__section": "text",
               "avatarId": "",

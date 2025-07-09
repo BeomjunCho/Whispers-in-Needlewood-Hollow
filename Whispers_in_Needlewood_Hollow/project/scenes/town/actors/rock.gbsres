@@ -30,7 +30,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "I found a rock!",
+          "You found a rock!",
           "I can make needle",
           "with this."
         ],

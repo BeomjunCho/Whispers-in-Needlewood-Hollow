@@ -44,9 +44,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "I guess I can",
-                      "cultivate that",
-                      "Land."
+                      "You can cultivate\nyour garden now."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -73,7 +71,8 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "What is this land...?"
+                      "Your garden looks \nso empty...",
+                      "Maybe you can \ncultivate it \nsomeday."
                     ],
                     "__section": "text",
                     "avatarId": "",
