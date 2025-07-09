@@ -14,8 +14,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "I can't go",
-          "this way..."
+          "You were\ntold not to go  \nback this way...",
+          "After your bunny \nwas torn apart..."
         ],
         "__section": "text",
         "avatarId": "",

@@ -33,14 +33,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "“I need to grow ",
-                "cotton for thread,",
-                "and gather stones ",
-                "to make a needle.",
-                "But I don’t have",
-                "any tools yet.",
-                "I should go",
-                "look for them."
+                "You made a \npromise...",
+                "You have to fix \nyour bunny.",
+                "You'll have to \nget thread and \na needle.",
+                "Maybe you can ask\nthe Young Witch\nin the East for\nhelp?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -67,7 +63,8 @@
               "variable": "L0",
               "value": {
                 "type": "true"
-              }
+              },
+              "__collapse": true
             },
             "id": "4501a835-caea-46ae-980b-f9d737be0f53"
           }

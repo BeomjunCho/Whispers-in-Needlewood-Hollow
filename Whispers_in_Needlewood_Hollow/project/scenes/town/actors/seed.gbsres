@@ -30,7 +30,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "You found a seed!",
+          "You searched \ncarefully...",
+          "...",
+          "You found\nCotton Seeds!",
           "You should plant \nthis in your \ngarden."
         ],
         "__section": "text",

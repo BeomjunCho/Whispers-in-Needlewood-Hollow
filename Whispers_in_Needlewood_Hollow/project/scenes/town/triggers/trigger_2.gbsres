@@ -72,7 +72,7 @@
                   "args": {
                     "text": [
                       "Your garden looks \nso empty...",
-                      "Maybe you can \ncultivate it \nsomeday."
+                      "Maybe you can \ncultivate it \none day."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -143,8 +143,8 @@
                   "command": "EVENT_CHOICE",
                   "args": {
                     "variable": "L0",
-                    "trueText": "Cultivate?",
-                    "falseText": "No"
+                    "trueText": "Cultivate",
+                    "falseText": "Do Nothing"
                   },
                   "id": "cccbcda6-c7f5-48b8-a676-77a6873b0d00"
                 },

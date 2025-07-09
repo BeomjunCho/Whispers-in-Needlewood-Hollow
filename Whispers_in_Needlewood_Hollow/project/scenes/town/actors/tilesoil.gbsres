@@ -83,7 +83,7 @@
                               "command": "EVENT_CHOICE",
                               "args": {
                                 "variable": "L0",
-                                "trueText": "Plant seed?",
+                                "trueText": "Plant seeds?",
                                 "falseText": "No"
                               },
                               "id": "e3eae0be-cf34-4868-b53e-55b1798bad45"
@@ -150,7 +150,7 @@
                               "command": "EVENT_TEXT",
                               "args": {
                                 "text": [
-                                  "Need to find Seed."
+                                  "You need to find\nCotton Seeds."
                                 ],
                                 "__section": "text",
                                 "avatarId": "",
@@ -206,7 +206,7 @@
                                     "command": "EVENT_TEXT",
                                     "args": {
                                       "text": [
-                                        "Need to wait."
+                                        "You need to wait."
                                       ],
                                       "__section": "text",
                                       "avatarId": "",
@@ -233,8 +233,8 @@
                                     "command": "EVENT_CHOICE",
                                     "args": {
                                       "variable": "L1",
-                                      "trueText": "Give some water",
-                                      "falseText": "Nope"
+                                      "trueText": "Water the soil",
+                                      "falseText": "Do Nothing"
                                     },
                                     "id": "45c775c1-fb8b-4c5a-bbd4-a7097873195c"
                                   },
@@ -443,7 +443,7 @@
                                                       "command": "EVENT_TEXT",
                                                       "args": {
                                                         "text": [
-                                                          "Need to wait."
+                                                          "You need to wait."
                                                         ],
                                                         "__section": "text",
                                                         "avatarId": "",
@@ -692,8 +692,8 @@
                               "command": "EVENT_TEXT",
                               "args": {
                                 "text": [
-                                  "I need to fill",
-                                  "my watering can."
+                                  "Your watering can\nhas no water...",
+                                  "There is a lake \nsomewhere in the \nwoods. Fill it\nthere."
                                 ],
                                 "__section": "text",
                                 "avatarId": "",
@@ -728,7 +728,7 @@
                   "command": "EVENT_CHOICE",
                   "args": {
                     "variable": "L3",
-                    "trueText": "Harvest?",
+                    "trueText": "Harvest",
                     "falseText": "No"
                   },
                   "id": "dd126d53-b8ae-4e5f-ad3b-c75155339ac8"
@@ -832,8 +832,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Land seems like",
-                "No energy.."
+                "Your garden \nseems...",
+                "Depleted..."
               ],
               "__section": "text",
               "avatarId": "",

@@ -30,9 +30,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "You found a rock!",
-          "I can make needle",
-          "with this."
+          "You searched \ncarefully...",
+          "...",
+          "You found a rock!"
         ],
         "__section": "text",
         "avatarId": "",

@@ -49,9 +49,8 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Ok. I can fill ",
-                      "water in my",
-                      "water can..."
+                      "This is the lake.",
+                      "You can fill \nsomething here."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -84,8 +83,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "You filled your",
-                      "watering can!"
+                      "You filled your\nwatering can!"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -112,8 +110,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "I already filled",
-                      "my watering can."
+                      "You already filled\nyour watering can."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -144,7 +141,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Nice lake...."
+                "This really is a \nnice lake."
               ],
               "__section": "text",
               "avatarId": "",

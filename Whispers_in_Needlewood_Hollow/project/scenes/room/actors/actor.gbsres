@@ -80,8 +80,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "I will fix you...",
-                "I promise."
+                "Your bunny...\n",
+                "You feel\nresponsible for \nit being broken...",
+                "You resolve to fix it."
               ],
               "__section": "text",
               "avatarId": "",

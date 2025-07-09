@@ -61,13 +61,11 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Don’t worry,",
-                "my little bun bun.",
-                "I just need to",
-                "get a needle",
-                "and thread",
-                "to fix you.",
-                "I will find a way."
+                "Your bunny...",
+                "You just need to \nfind a thread,\nand a needle.",
+                "You steel your \nresolve.",
+                "You will fix your\nbunny.",
+                "You have to."
               ],
               "__section": "text",
               "avatarId": "",
