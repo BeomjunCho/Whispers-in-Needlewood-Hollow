@@ -23,7 +23,7 @@
   ],
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
-  "playerSpriteSheetId": "fcece430-5319-483b-92ac-a5ba3d1a5447",
+  "playerSpriteSheetId": "c8773f8d-c0b5-459f-94e8-75e13c85e9a3",
   "script": [
     {
       "command": "EVENT_SCENE_PUSH_STATE",
