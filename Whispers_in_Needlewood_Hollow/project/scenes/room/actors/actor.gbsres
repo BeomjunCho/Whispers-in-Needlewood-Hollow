@@ -80,9 +80,20 @@
                   "command": "EVENT_ACTOR_SET_SPRITE",
                   "args": {
                     "actorId": "$self$",
-                    "spriteSheetId": "5686a979-2b8e-4d56-afcd-e04bb400bfc6"
+                    "spriteSheetId": "f17a0982-5ec8-45b4-acbf-56be9854a645"
                   },
                   "id": "99ec5542-5b4b-4ff5-becf-58f9ed5c6489"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "$self$",
+                    "direction": {
+                      "type": "direction",
+                      "value": "left"
+                    }
+                  },
+                  "id": "e5fd3bcb-aa36-445a-ad4c-59bd442fd959"
                 },
                 {
                   "command": "EVENT_TEXT",
@@ -111,31 +122,29 @@
                   "id": "232179ec-9210-4785-bfcb-eb1bd400f9a8"
                 },
                 {
-                  "command": "EVENT_MUSIC_STOP",
-                  "args": {},
-                  "id": "c1762cb4-e854-4f69-98b1-5722d513b409"
-                },
-                {
-                  "command": "EVENT_MUSIC_PLAY",
-                  "args": {
-                    "musicId": "a2e1270d-b8e4-45bf-9e4e-e2a8753504a1"
-                  },
-                  "id": "3cc8efb0-46dc-4230-9a3d-88abd5c2d159"
-                },
-                {
                   "command": "EVENT_WAIT",
                   "args": {
-                    "time": 1.8,
+                    "time": 1,
                     "frames": 30
                   },
                   "id": "9511b4ea-8dc4-42ab-a175-3209b014ac39"
                 },
                 {
-                  "command": "EVENT_MUSIC_PLAY",
+                  "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "musicId": "6d0d873f-e209-4738-a72a-c090ca3d6dde"
+                    "sceneId": "e831471a-4b66-41ae-904b-b2b0efce059b",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
                   },
-                  "id": "c6dd71e3-bd63-4c12-a0b8-fac7059870e2"
+                  "id": "cbd5911c-4778-4ef5-b559-0c6f3f937560"
                 }
               ],
               "false": [
