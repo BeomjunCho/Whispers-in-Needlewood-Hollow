@@ -52,8 +52,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Hello little \nwitch, ",
-                      "It's always nice \nto see you."
+                      "Hello little \nwitch, How can\nthis old witch \nhelp you?"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -99,7 +98,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "You show the \nwitch. The rock \nyou found, and the\ncotton you grew.",
+                            "You show the \nwitch, the rock \nyou found, and the\ncotton you grew.",
                             "Ah... I see you \nwish to make some\nthread and a\nneedle?",
                             "You nod.",
                             "Very well, one \nmoment.",

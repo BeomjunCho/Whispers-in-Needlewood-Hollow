@@ -14,8 +14,8 @@
       "command": "EVENT_CHOICE",
       "args": {
         "variable": "L0",
-        "trueText": "Get in the house?",
-        "falseText": "No."
+        "trueText": "Enter",
+        "falseText": "Do Nothing"
       },
       "id": "262865ef-1b4f-4999-81e5-39e608347cba"
     },

@@ -14,8 +14,8 @@
       "command": "EVENT_CHOICE",
       "args": {
         "variable": "L0",
-        "trueText": "Go out from here?",
-        "falseText": "No."
+        "trueText": "Leave",
+        "falseText": "Do nothing"
       },
       "id": "b1d2fb04-df9f-4001-a19d-437c7139d9ab"
     },

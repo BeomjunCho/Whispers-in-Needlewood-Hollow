@@ -83,8 +83,8 @@
                               "command": "EVENT_CHOICE",
                               "args": {
                                 "variable": "L0",
-                                "trueText": "Plant seeds?",
-                                "falseText": "No"
+                                "trueText": "Plant seeds",
+                                "falseText": "Do nothing"
                               },
                               "id": "e3eae0be-cf34-4868-b53e-55b1798bad45"
                             },
